@@ -25,7 +25,8 @@ const longestSequence = (arr) => {
 }
 
 // Use console.time and .timeEnd to check the execution time ellapsed
+console.time('Example #1')
+console.log(longestSequence([99, 5, 234, 2, 4, 3]))
+console.timeEnd('Example #1')
 
-console.time('Example #2')
 console.log(longestSequence([0, 3, 7, 2, 5, 8, 4, 6, 0, 1]))
-console.timeEnd('Example #2')
