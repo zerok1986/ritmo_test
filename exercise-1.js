@@ -54,7 +54,7 @@ while (totalDebt > 0) {
   iteration++
 
   // Scaping at iteration 100 (preventing infinite loop)
-  if (iteration === 100) {
-    process.exit(0)
-  }
+  // if (iteration === 100) {
+  //   process.exit(0)
+  // }
 }
